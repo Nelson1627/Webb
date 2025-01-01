@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #61dafb, #21a1f1);
+    padding: 20px;
+    border-bottom: 5px solid #f39c12;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+    color: #f39c12;
+    margin-top: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e67e22;
+}
+
+#collage {
+    margin-top: 20px;
+}
+
+.collage-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.collage-container img {
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    margin: 5px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.collage-container img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 5px solid #f39c12;
+}
+
+/* Estilos para recuerdos */
+.recuerdo {
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px; /* Limita el ancho máximo */
+    text-align: center; /* Centra el contenido */
+}
+
+.recuerdo img {
+    max-width: 100%; /* Asegura que las imágenes no excedan el contenedor */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+}
+
+.recuerdo p {
+    font-size: 1.2em; /* Tamaño de fuente más grande */
+    color: #f39c12; /* Color del texto */
+    margin-top: 10px; /* Espacio arriba de la frase */
+    font-style: italic; /* Estilo de fuente en cursiva */
+    padding: 10px; /* Espacio interno */
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo blanco con transparencia */
+    border-radius: 5px; /* Bordes redondeados para el fondo de la frase */
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .recuerdo {
+        padding: 10px;
+    }
+
+    .recuerdo p {
+        font-size: 1em; /* Reduce el tamaño de fuente en pantallas pequeñas */
+    }
+}
